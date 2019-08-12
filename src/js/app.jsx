@@ -14,14 +14,14 @@ export default props => {
 
         api.then(api => {
             api
-                .getEntry("30DlkSFvmLSuAMN0rn9hwT")
+                .getEntry("3MV4dNkxmzuQJJ5rU2v3Q")
                 .then(entry => {
-                    entry.fields.name["en-US"] = "Super spongeBob";
+                    console.log(entry);
+                    entry.fields.nom["en-US"] = "Super spongeBob";
                     return entry.update();
                 })
                 .then(entry => {
-                    setPlayerName(entry.fields.name["en-US"]);
-                    console.log(`Entry ${entry.sys.id} updated.`);
+                    console.log(entry);
                 });
         });
     }, []);
