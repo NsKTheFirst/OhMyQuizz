@@ -23,7 +23,7 @@
   "homepage": "https://github.com/NsKTheFirst/OhMyQuizz#readme",
   "dependencies": {
     "autoprefixer": "^9.6.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "connected-react-router": "^6.5.2",
     "contentful-management": "^5.9.0",
     "dotenv": "^8.0.0",
